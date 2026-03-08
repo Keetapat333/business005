@@ -46,7 +46,7 @@
                                 <td><?= $r['Email'] ?></td>
                                 <td><?= $r['CountryName'] ?></td>
                                 <td><?= $r['OutstandingDebt'] ?></td>
-                                <td><a href="updateCustomerForm.php?CustomerID=<?= $r['CustomerID']; ?>" class="btn btn-warning btn-sm">แก้ไข</a></td>
+                                <td><a href="updateCustomerDB.php?CustomerID=<?= $r['CustomerID']; ?>" class="btn btn-warning btn-sm">แก้ไข</a></td>
                                 <td><a href="deleteCustomer.php?CustomerID=<?= $r['CustomerID'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('ยืนยันการลบข้อมูล !!');">ลบ</a></td>
                             </tr>
                         <?php
